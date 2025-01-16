@@ -51,16 +51,6 @@ Examples of when to use each verdict:
     * Bug fixes with proper test coverage
     * New features with adequate tests and documentation
 
-    // Front-end specific
-    * Visual changes following design system
-    * CSS/styling improvements
-    * Adding/modifying UI components
-    * Accessibility improvements
-    * Responsive design adjustments
-    * Image/asset optimizations
-    * Animation/transition additions
-    * i18n/l10n additions
-
     // Extensions to existing code
     * Adding new cases to existing switch statements
     * Extending existing interfaces/types
@@ -93,10 +83,10 @@ Examples of when to use each verdict:
     * Code duplication concerns
     * Unclear naming or abstractions
     * Potential memory leaks
-    * Non-critical TypeScript/lint issues
+    * Non-critical lint issues
 
 - Request Changes:
-    * Security vulnerabilities (OWASP Top 10)
+    * Security vulnerabilities
     * Data loss or corruption risks
     * Broken core functionality
     * Critical performance regressions
